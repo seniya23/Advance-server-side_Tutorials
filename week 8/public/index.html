@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Celebrity Search</title>
+</head>
+<body>
+    <h1>Celebrity Search</h1>
+    <form id="celebrityForm">
+        <label for="celebrityName">Celebrity Name:</label>
+        <input type="text" id="celebrityName" name="celebrityName">
+        
+        <label for="celebrityDropdown">Or select a celebrity:</label>
+        <select id="celebrityDropdown">
+            <!-- Options will be populated dynamically -->
+        </select>
+        
+        <button type="submit" id="submitBtn">Search</button>
+    </form>
+    
+    <div id="results">
+        <!-- Search results will be displayed here -->
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
